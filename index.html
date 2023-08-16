@@ -6,6 +6,24 @@
     <title>JS DOM Events</title>
 </head>
 <body>
-    
+    <!-- option:1 -->
+    <h1 onclick="console.log('You Clicked on me')">Javascript DOM Special Events Today</h1>
+    <button onclick="console.log('12')">Click Me</button>
+    <button onclick="console.log('Opps! You Clicked Me')">Another Button</button>
+    <br>
+    <button onclick="document.body.style.backgroundColor = 'pink'">Make Background Pink</button>
+    <br>
+    <!-- option:2 -->
+    <button onclick="orangeBackground()">Make Background Color Orange</button>
+    <!-- option:3 -->
+    <button id="blue-bg">Make Blue</button>
+    <br>
+    <button id="purple-btn">Make Purple</button>
+    <!-- option:4 -->
+    <button id="red-btn">Make Red</button>
+    <button id="yellow-btn">Make Yellow</button>
+    <button id="golden-btn">Make Golden</button>
+
+    <script src="js/events.js"></script>
 </body>
 </html>
